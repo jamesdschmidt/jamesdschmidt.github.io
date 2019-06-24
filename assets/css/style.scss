@@ -1,4 +1,9 @@
 ---
 ---
 @import "minima";
-@import "my_overrides";
+
+.highlight {
+  .highlighter-rouge & {
+    background: #eee
+  }
+}
