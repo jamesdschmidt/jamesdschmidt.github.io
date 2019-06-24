@@ -52,3 +52,11 @@ plugins:
  - jekyll-seo-tag
 
 google_analytics: UA-56785727-1
+
+
+# jekyll-seo-tag
+# wants different format from minima
+url: https://jamesdschmidt.dev
+twitter:
+  username: jamesdschmidt
+  card: summary
