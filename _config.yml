@@ -13,14 +13,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jamesdschmidt
-    github:  jamesdschmidt
+    # twitter: jamesdschmidt
+    # github:  jamesdschmidt
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    linkedin: jamesdschmidt2
+    # linkedin: jamesdschmidt2
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -36,14 +36,15 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
-twitter_username: jamesdschmidt
-github_username:  jamesdschmidt
+# twitter_username: jamesdschmidt
+# github_username:  jamesdschmidt
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
 - about.md
 - contact.md
+- [RSS](feed.xml)
 
 # Build settings
 theme: minima
@@ -53,7 +54,6 @@ plugins:
  - jekyll-seo-tag
 
 google_analytics: UA-56785727-1
-
 
 # jekyll-seo-tag
 # wants different format from minima
