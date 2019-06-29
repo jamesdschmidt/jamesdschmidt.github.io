@@ -44,7 +44,7 @@ minima:
 header_pages:
 - about.md
 - contact.md
-- [RSS](feed.xml)
+- feed.xml
 
 # Build settings
 theme: minima
