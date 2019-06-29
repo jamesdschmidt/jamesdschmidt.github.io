@@ -5,7 +5,7 @@ title: "Contact"
 
 # Contact
 
-Email: james.daniel.schmidt@gmail.com
+Email: [james.daniel.schmidt@gmail.com](mailto:james.daniel.schmidt@gmail.com)
 
 GitHub: [jamesdschmidt](https://www.github.com/jamesdschmidt)
 
