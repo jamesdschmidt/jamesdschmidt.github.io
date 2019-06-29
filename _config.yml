@@ -1,9 +1,7 @@
 title: James Schmidt
 author: jamesdschmidt
-email: james.daniel.schmidt@gmail.com
+#email: james.daniel.schmidt@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Personal blog for James Schmidt
-
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -44,7 +42,6 @@ minima:
 header_pages:
 - about.md
 - contact.md
-- feed.xml
 
 # Build settings
 theme: minima
