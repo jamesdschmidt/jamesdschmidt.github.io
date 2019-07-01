@@ -7,6 +7,9 @@ published: true
 
 Hello world programs in the following programming languages in alphabetical order.
 
+## C
+{% gist bc1d40fb251da6c78c772a5cc2b8811d %}
+
 ## Go
 {% gist 29015cde96d9927e2b3a610267bde738 %}
 
