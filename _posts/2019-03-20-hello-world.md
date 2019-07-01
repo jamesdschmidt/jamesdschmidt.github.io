@@ -18,3 +18,6 @@ Hello world programs in the following programming languages in alphabetical orde
 
 ## Python
 {% gist 6027730cf35cc12bcc1dbb7c0f8996c6 %}
+
+## Rust
+{% gist 64a400bf34b402f3cb97a24b7b1b1504 %}
