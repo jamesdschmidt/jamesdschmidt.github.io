@@ -13,5 +13,8 @@ Hello world programs in the following programming languages in alphabetical orde
 ## Java
 {% gist 855d559464995df520b62ccdaba68624 %}
 
+## Kotlin
+{% gist 8a4321b2ce4d8fc4bc954835f15455c6 %}
+
 ## Python
 {% gist 6027730cf35cc12bcc1dbb7c0f8996c6 %}
