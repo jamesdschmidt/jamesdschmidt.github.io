@@ -8,15 +8,7 @@ published: true
 Hello world programs in the following programming languages in alphabetical order.
 
 ## Go
-```go
-package main
-
-import "fmt"
-
-func main() {
-  fmt.Println("Hello, World!")
-}
-```
+{% gist 29015cde96d9927e2b3a610267bde738 %}
 
 ## Java
 ```java
