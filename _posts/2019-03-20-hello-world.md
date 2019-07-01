@@ -11,15 +11,7 @@ Hello world programs in the following programming languages in alphabetical orde
 {% gist 29015cde96d9927e2b3a610267bde738 %}
 
 ## Java
-```java
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello World!");
-  }
-}
-```
+{% gist 855d559464995df520b62ccdaba68624 %}
 
 ## Python
-```python
-print("Hello World!")
-```
+{% gist 6027730cf35cc12bcc1dbb7c0f8996c6 %}
