@@ -8,10 +8,25 @@ published: true
 Hello world programs in the following programming languages in alphabetical order.
 
 ## Go
-{% gist 29015cde96d9927e2b3a610267bde738 %}
+```golang
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("hello, world\n")
+```
 
 ## Java
-{% gist 855d559464995df520b62ccdaba68624 %}
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
+}
+```
 
 ## Python
-{% gist 6027730cf35cc12bcc1dbb7c0f8996c6 %}
+``` python
+print("Hello World!")
+```
