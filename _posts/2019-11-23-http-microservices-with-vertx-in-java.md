@@ -3,7 +3,7 @@ title: "HTTP Microservices With Vert.x in Java"
 published: true
 ---
 
-Occam's razor: *pluralitas non est ponenda sine necessitate*, “plurality should not be posited without necessity” or paraphrased as "the simplest solution is most likely the right one."
+> Occam's razor: *pluralitas non est ponenda sine necessitate*, “plurality should not be posited without necessity” or paraphrased as "the simplest solution is most likely the right one."
 
 This article will describe how to create a simple HTTP microservice with Java and the Vert.x library. We'll look at other integration technologies in the future.
 
