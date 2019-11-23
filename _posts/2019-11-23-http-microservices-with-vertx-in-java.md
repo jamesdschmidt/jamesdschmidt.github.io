@@ -7,7 +7,7 @@ published: true
 
 This article will describe how to create a simple HTTP microservice with Java and the Vert.x library. We'll look at other integration technologies in the future.
 
-**Microservices** are an architectural style for an application where it is composed of independently deployable services. The most common pattern of integrating these services is over the HTTP protocal.
+**Microservices** are an architectural style for an application where it is composed of independently deployable services. The most common pattern of integrating these services is over HTTP.
 
 The **Vert.x library** was inspired by Node.js. The advantage of choosing Vert.x with Java is it is implemented with multiple threads and can therefore handle more requests or events per process.
 
@@ -122,4 +122,5 @@ TODO: describe HelloWorldService.java
 
 
 ## An Easier Way
-Visit the (Vert.x Starter)[https://start.vertx.io/] for an easy way to create a new project with Vert.x.
+
+Visit the [Vert.x Starter](https://start.vertx.io/) for an easy way to create a new project with Vert.x.
