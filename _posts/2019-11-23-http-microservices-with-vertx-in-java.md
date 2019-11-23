@@ -37,7 +37,7 @@ mvn io.reactiverse:vertx-maven-plugin:1.0.22:setup \
 TODO: describe what maven and the plugin did
 
 ### pom.xml
-```xml
+{% highlight xml linenos %}
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -96,12 +96,12 @@ TODO: describe what maven and the plugin did
     </plugins>
   </build>
 </project>
-```
+{% endhighlight %}
 
 TODO: describe pom.xml
 
 ### src/main/java/com/example/HelloWorldService.java
-```java
+{% highlight java linenos %}
 package com.example;
 
 import io.vertx.core.AbstractVerticle;
@@ -114,7 +114,7 @@ public class HelloWorldService extends AbstractVerticle {
     }
 
 }
-```
+{% endhighlight %}
 
 TODO: describe HelloWorldService.java
 
