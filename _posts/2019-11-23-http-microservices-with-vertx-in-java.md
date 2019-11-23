@@ -4,7 +4,7 @@ published: true
 ---
 
 > Mathematics is the language of nature.
-> - Fibonacci
+> Fibonacci
 
 This article will describe how to create a simple HTTP microservice with Java and the Vert.x library. We'll look at other integration technologies in the future.
 
