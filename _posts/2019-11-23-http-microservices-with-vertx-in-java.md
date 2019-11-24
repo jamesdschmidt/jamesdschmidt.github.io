@@ -124,7 +124,7 @@ public class MainVerticle extends AbstractVerticle {
 }
 {% endhighlight %}
 
-The maven plugin created this almost empty class. The class extends the `AbstractVerticle` to make it a Vert.x **verticle** on line 5. A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` method.
+The maven plugin created this almost empty class. The class extends the `AbstractVerticle` to make it a Vert.x **verticle** on line 5. A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` method on line 8.
 
 ## Starting the Service
 
@@ -160,7 +160,7 @@ TODO: describe MainVerticle.java
 
 ## Testing the Service
 
-Finally let's test the HTTP microservice by running the following curl command or navigate to `localhost:8080` with a web browser:
+Finally test the HTTP microservice by running the following curl command or navigate to `localhost:8080` with a web browser:
 
 ```bash
 curl localhost:8080
