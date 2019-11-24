@@ -40,68 +40,8 @@ We set the verticle name with the `-Dverticle=` argument. That creates a stubbed
 We also included the web dependency with the `-Ddependencies` argument. The dependency will be added to the pom. It allows us to code up a web server.
 
 `pom.xml`
-{% highlight xml linenos %}
-<?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.example</groupId>
-  <artifactId>hello-world-service</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <properties>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <vertx-maven-plugin.version>1.0.22</vertx-maven-plugin.version>
-    <vertx.verticle>com.example.MainVerticle</vertx.verticle>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <vertx.version>3.8.2</vertx.version>
-  </properties>
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-stack-depchain</artifactId>
-        <version>${vertx.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-  <dependencies>
-    <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-core</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-web</artifactId>
-    </dependency>
-  </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>io.reactiverse</groupId>
-        <artifactId>vertx-maven-plugin</artifactId>
-        <version>${vertx-maven-plugin.version}</version>
-        <executions>
-          <execution>
-            <id>vmp</id>
-            <goals>
-              <goal>initialize</goal>
-              <goal>package</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <redeploy>true</redeploy>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-</project>
-{% endhighlight %}
 
-The main verticle is defined in `<vertx.verticle>`. This tells Vert.x where to start. Also note that the dependencies `vertx-core` and `vertx-web` are included. The plugin `vertx-maven-plugin` is configured. The `<redeploy>` configuration is set to `true`. This configuration causes the plugin to restart the service when the source is changed while running.
+There is a lot of boiler plate in the `pom.xml` so I won't list it here. But open your copy and notice that the main verticle is defined in `<vertx.verticle>`. This tells Vert.x where to start. Also note that the dependencies `vertx-core` and `vertx-web` are included. The plugin `vertx-maven-plugin` is configured. The `<redeploy>` configuration is set to `true`. This configuration causes the plugin to restart the service when the source is changed while running.
 
 `src/main/java/com/example/MainVerticle.java`
 {% highlight java linenos %}
