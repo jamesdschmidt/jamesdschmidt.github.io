@@ -30,13 +30,15 @@ Now create the project using Maven and the [vertx-maven-plugin](https://reactive
 mvn io.reactiverse:vertx-maven-plugin:1.0.22:setup \
   -DprojectGroupId=com.example \
   -DprojectArtifactId=hello-world-service \
-  -Dverticle=com.example.HelloWorldService \
+  -Dverticle=com.example.HelloWorldVerticle \
   -Ddependencies=web
 ```
 
-TODO: describe what maven and the plugin did
+We set the verticle name with the `-Dverticle=` argument. That creates a stubbed class `HelloWorldVerticle.java` in the project.
 
-### `pom.xml`
+We also included the web dependency with the `-Ddependencies` argument. The dependency will be added to the pom. It allows us to code up a web server.
+
+`pom.xml`
 {% highlight xml linenos %}
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
@@ -48,7 +50,7 @@ TODO: describe what maven and the plugin did
   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <vertx-maven-plugin.version>1.0.22</vertx-maven-plugin.version>
-    <vertx.verticle>com.example.HelloWorldService</vertx.verticle>
+    <vertx.verticle>com.example.HelloWorldVerticle</vertx.verticle>
     <maven.compiler.source>1.8</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <vertx.version>3.8.2</vertx.version>
@@ -100,13 +102,13 @@ TODO: describe what maven and the plugin did
 
 TODO: describe pom.xml
 
-### `src/main/java/com/example/HelloWorldService.java`
+`src/main/java/com/example/HelloWorldVerticle.java`
 {% highlight java linenos %}
 package com.example;
 
 import io.vertx.core.AbstractVerticle;
 
-public class HelloWorldService extends AbstractVerticle {
+public class HelloWorldVerticle extends AbstractVerticle {
 
     @Override
     public void start() {
@@ -116,9 +118,11 @@ public class HelloWorldService extends AbstractVerticle {
 }
 {% endhighlight %}
 
-TODO: describe HelloWorldService.java
+The maven plugin created an empty
 
 ## Trying It Out
+
+Start the service using the following command:
 
 ```bash
 mvn vertx:run
@@ -126,26 +130,26 @@ mvn vertx:run
 
 TODO: describe the maven command
 
-Let's add an HTTP server to the service so it can handle web requests. Update `HelloWorldService.java` to look like the following example:
+Let's add an HTTP server to the service so it can handle web requests. Update `HelloWorldVerticle.java` to look like the following example:
 
 {% highlight java linenos %}
 package com.example;
 
 import io.vertx.core.AbstractVerticle;
 
-public class HelloWorldService extends AbstractVerticle {
+public class HelloWorldVerticle extends AbstractVerticle {
 
   @Override
   public void start() {
     vertx.createHttpServer()
-      .requestHandler(req -> req.response().end("hello world\n"))
+      .requestHandler(request -> request.response().end("hello world\n"))
       .listen(8080);
   }
 }
 
 {% endhighlight %}
 
-TODO: describe HelloWorldService.java
+TODO: describe HelloWorldVerticle.java
 
 Finally let's test the HTTP microservice by running the following curl command or navigate to localhost:8080 with a web browser:
 
