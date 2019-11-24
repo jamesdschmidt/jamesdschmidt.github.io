@@ -156,7 +156,9 @@ public class MainVerticle extends AbstractVerticle {
 }
 {% endhighlight %}
 
-TODO: describe MainVerticle.java
+* Line 9 creates an HTTP server on the Vert.x instance that deployed this verticle. It is a protected member of the AbstractVerticle base class.
+* Line 10 handles the request with a lambda that returns `hello world\n` in the response.
+* Line 11 instructs the HTTP server to listen to port 8080 on host 0.0.0.0.
 
 ## Testing the Service
 
