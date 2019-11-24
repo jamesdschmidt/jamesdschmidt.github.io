@@ -127,7 +127,7 @@ public class MainVerticle extends AbstractVerticle {
 The maven plugin created this almost empty class.
 
 * Line 5 the class extends the `AbstractVerticle` to make it a Vert.x **verticle**.
-* Line 8 the `start()` must be overridden and is the entry point into this verticle.
+* Line 8 the `start()` method must be overridden and is the entry point into this verticle.
 
 A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` in each verticle.
 
