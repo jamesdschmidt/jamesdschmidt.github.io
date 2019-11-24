@@ -122,6 +122,37 @@ TODO: describe HelloWorldService.java
 ## Trying It Out
 
 ```bash
+mvn vertx:run
+```
+
+TODO: describe the maven command
+
+Let's add an HTTP server to the service so it can handle web requests. Update `HelloWorldService.java` to look like the following example:
+
+{% highlight java linenos %}
+package com.example;
+
+import io.vertx.core.AbstractVerticle;
+
+public class HelloWorldService extends AbstractVerticle {
+
+  @Override
+  public void start() {
+    vertx.createHttpServer()
+      .requestHandler(req -> req.response().end("hello world\n"))
+      .listen(8080);
+  }
+}
+
+{% endhighlight %}
+
+TODO: describe HelloWorldService.java
+
+Finally let's test the HTTP microservice by running the following curl command or navigate to localhost:8080 with a web browser:
+
+```bash
+curl localhost:8080
+hello world
 
 ```
 
