@@ -36,7 +36,7 @@ mvn io.reactiverse:vertx-maven-plugin:1.0.22:setup \
 
 TODO: describe what maven and the plugin did
 
-### pom.xml
+### `pom.xml`
 {% highlight xml linenos %}
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
@@ -100,7 +100,7 @@ TODO: describe what maven and the plugin did
 
 TODO: describe pom.xml
 
-### src/main/java/com/example/HelloWorldService.java
+### `src/main/java/com/example/HelloWorldService.java`
 {% highlight java linenos %}
 package com.example;
 
@@ -152,7 +152,6 @@ Finally let's test the HTTP microservice by running the following curl command o
 ```bash
 curl localhost:8080
 hello world
-
 ```
 
 ## An Easier Way
