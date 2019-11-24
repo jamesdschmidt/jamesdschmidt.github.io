@@ -1,5 +1,6 @@
 ---
 title: "HTTP Microservices With Vert.x in Java"
+tags: microservices vertx java
 published: true
 ---
 
@@ -17,7 +18,7 @@ The **Vert.x library** was inspired by Node.js. The advantage of choosing Vert.x
 
 ## Getting Started
 
-Start by creating a directory for the project:
+Start by creating a directory for the project and changing into the directory:
 
 ```bash
 mkdir hello-world-service
@@ -30,7 +31,7 @@ Now create the project using Maven and the [vertx-maven-plugin](https://reactive
 mvn io.reactiverse:vertx-maven-plugin:1.0.22:setup \
   -DprojectGroupId=com.example \
   -DprojectArtifactId=hello-world-service \
-  -Dverticle=com.example.HelloWorldVerticle \
+  -Dverticle=com.example.MainVerticle \
   -Ddependencies=web
 ```
 
@@ -50,7 +51,7 @@ We also included the web dependency with the `-Ddependencies` argument. The depe
   <properties>
     <maven.compiler.target>1.8</maven.compiler.target>
     <vertx-maven-plugin.version>1.0.22</vertx-maven-plugin.version>
-    <vertx.verticle>com.example.HelloWorldVerticle</vertx.verticle>
+    <vertx.verticle>com.example.MainVerticle</vertx.verticle>
     <maven.compiler.source>1.8</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <vertx.version>3.8.2</vertx.version>
@@ -100,25 +101,24 @@ We also included the web dependency with the `-Ddependencies` argument. The depe
 </project>
 {% endhighlight %}
 
-TODO: describe pom.xml
+The main verticle is defined in `<vertx.verticle>`. This tells Vert.x where to start. Also note that the dependencies `vertx-core` and `vertx-web` are included. The plugin `vertx-maven-plugin` is configured. The `<redeploy>` configuration is set to `true`. This configuration causes the plugin to restart the service when the source is changed while running.
 
-`src/main/java/com/example/HelloWorldVerticle.java`
+`src/main/java/com/example/MainVerticle.java`
 {% highlight java linenos %}
 package com.example;
 
 import io.vertx.core.AbstractVerticle;
 
-public class HelloWorldVerticle extends AbstractVerticle {
+public class MainVerticle extends AbstractVerticle {
 
-    @Override
-    public void start() {
+  @Override
+  public void start() {
 
-    }
-
+  }
 }
 {% endhighlight %}
 
-The maven plugin created an empty
+The maven plugin created this almost empty class. The class extends the `AbstractVerticle` to make it a Vert.x **verticle** on line 5. A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` method.
 
 ## Trying It Out
 
@@ -128,16 +128,16 @@ Start the service using the following command:
 mvn vertx:run
 ```
 
-TODO: describe the maven command
+This command causes Maven to compile and run the service in the foreground. Because the plugin is configured to redeploy, the plugin will restart the service when source code is changed.
 
-Let's add an HTTP server to the service so it can handle web requests. Update `HelloWorldVerticle.java` to look like the following example:
+Now add an HTTP server to the service so it can handle web requests. Update `MainVerticle.java` to look like the following example:
 
 {% highlight java linenos %}
 package com.example;
 
 import io.vertx.core.AbstractVerticle;
 
-public class HelloWorldVerticle extends AbstractVerticle {
+public class MainVerticle extends AbstractVerticle {
 
   @Override
   public void start() {
@@ -146,18 +146,21 @@ public class HelloWorldVerticle extends AbstractVerticle {
       .listen(8080);
   }
 }
-
 {% endhighlight %}
 
-TODO: describe HelloWorldVerticle.java
+TODO: describe MainVerticle.java
 
-Finally let's test the HTTP microservice by running the following curl command or navigate to localhost:8080 with a web browser:
+Finally let's test the HTTP microservice by running the following curl command or navigate to `localhost:8080` with a web browser:
 
 ```bash
 curl localhost:8080
 hello world
 ```
 
-## An Easier Way
+## Summary
 
-Visit the [Vert.x Starter](https://start.vertx.io/) for an easy way to create a new project with Vert.x.
+This article describes a simple way to start creating HTTP microservices with the Vert.x library. Visit the [Vert.x Starter](https://start.vertx.io/) for an easier way to create a new project with Vert.x.
+
+## References
+
+[Vert.x Documentation](https://vertx.io/docs/)
