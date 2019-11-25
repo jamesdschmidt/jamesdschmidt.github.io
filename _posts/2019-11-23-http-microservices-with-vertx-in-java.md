@@ -35,7 +35,7 @@ mvn io.reactiverse:vertx-maven-plugin:1.0.22:setup \
   -Ddependencies=web
 ```
 
-We set the verticle name with the `-Dverticle=` argument. That creates a stubbed class `HelloWorldVerticle.java` in the project.
+We set the verticle name with the `-Dverticle=` argument. That creates a stubbed class `MainVerticle.java` in the project.
 
 We also included the web dependency with the `-Ddependencies` argument. The dependency will be added to the pom. It allows us to code up a web server.
 
@@ -129,7 +129,7 @@ The maven plugin created this almost empty class.
 * Line 5 the class extends the `AbstractVerticle` to make it a Vert.x **verticle**.
 * Line 8 the `start()` method must be overridden and is the entry point into this verticle.
 
-A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` in each verticle.
+A verticle is a class of execution that respond to events and is similar to an actor in the [Actor Model](https://en.wikipedia.org/wiki/Actor_model). A Vert.x application is composed of one or more verticles. When the service starts, Vert.x automatically deploys the MainVerticle which calls the `start()` in the verticle.
 
 ## Starting the Service
 
