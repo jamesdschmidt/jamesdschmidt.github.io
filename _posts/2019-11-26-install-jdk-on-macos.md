@@ -87,7 +87,7 @@ jshell> /exit
 
 ## JAVA_HOME
 
-In this section we are going to configure the shell environment of macOS. `JAVA_HOME` is an environment variable set in the operating system that is a convention that many libraries and tools in the Java ecosystem need. It defines the home path the installed JDK.
+In this section we are going to configure the shell environment of macOS. `JAVA_HOME` is an environment variable set in the operating system that is a convention that many libraries and tools in the Java ecosystem need. It defines the home path for the installed JDK.
 
 Put the following text into the file `.bash_profile` in your user directory (`~` or `/Users/<username>`):
 
