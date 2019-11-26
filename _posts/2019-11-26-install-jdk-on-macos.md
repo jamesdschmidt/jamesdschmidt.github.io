@@ -67,7 +67,7 @@ Note that newer versions of the JDK can compile and run with a single command as
 
 ## `jshell`
 
-Did you know that Java now has a REPL (read-eval-print-loop) shell? Run `jshell` in a terminal shell as follows:
+Did you know that Java now has a REPL (read-eval-print-loop) shell? Run `jshell` in a terminal shell. Then write a line of "hello world" code.
 
 ```bash
 $ jshell
