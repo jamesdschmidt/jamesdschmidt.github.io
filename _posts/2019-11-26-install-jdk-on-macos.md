@@ -12,7 +12,7 @@ This article will describe how to install the Java Development Kit (JDK) on macO
 
 Go to [AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot). I prefer these prebuilt OpenJDK binaries as they are maintained with fixes to the JDK.
 
-Download the release you need. I currently us the 11 LTS release. Now run the installer.
+Download the release you need. I currently use the 11 LTS release. Now run the installer.
 
 ## Where Is It?
 
@@ -108,7 +108,7 @@ export PATH="$JAVA_HOME/bin:/usr/local/bin:$PATH"
 
 The `.bashrc` file executes when an interactive shell is started. Set `JAVA_HOME` to `/usr/libexec/java_home`. This is a utility specific to macOS. Notice that `$JAVA_HOME/bin` is prepended to the `PATH` environment variable.
 
-## Switch It
+## Switch Versions
 
 Now that the environment variables are set we can manually switch between JDK versions.
 
@@ -143,5 +143,5 @@ This article describes a simple way to install the JDK with some environment con
 
 ## References
 
-[AdoptOpenJDK](https://adoptopenjdk.net/)
+[AdoptOpenJDK](https://adoptopenjdk.net/)  
 [java_home and JAVA_HOME on macOS](https://medium.com/notes-for-geeks/java-home-and-java-home-on-macos-f246cab643bd)
