@@ -178,6 +178,10 @@ hello world
 
 This article describes a simple way to start creating HTTP microservices with the Vert.x library. Visit the [Vert.x Starter](https://start.vertx.io/) for an easier way to create a new project with Vert.x.
 
+## Source
+
+https://github.com/jamesdschmidt/blog-examples/tree/master/hello-world-service
+
 ## References
 
 [Vert.x Documentation](https://vertx.io/docs/)
