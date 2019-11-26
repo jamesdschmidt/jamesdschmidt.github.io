@@ -180,7 +180,7 @@ This article describes a simple way to start creating HTTP microservices with th
 
 ## Source
 
-https://github.com/jamesdschmidt/blog-examples/tree/master/hello-world-service
+[GitHub: hello-world-service](https://github.com/jamesdschmidt/blog-examples/tree/master/hello-world-service)
 
 ## References
 
