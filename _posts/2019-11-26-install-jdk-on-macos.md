@@ -65,7 +65,7 @@ hello world
 
 Note that newer versions of the JDK can compile and run with a single command as this example has shown.
 
-## JShell
+## `jshell`
 
 Did you know that Java now has a REPL (read-eval-print-loop) shell? Run `jshell` in a terminal shell as follows:
 
@@ -85,7 +85,7 @@ jshell> /exit
 |  Goodbye
 ```
 
-## Setting JAVA_HOME
+## ` JAVA_HOME`
 
 In this section we are going to configure the shell environment of macOS. `JAVA_HOME` is an environment variable set in the operating system that is a convention that many libraries and tools in the Java ecosystem need. It defines the home path the installed JDK.
 
