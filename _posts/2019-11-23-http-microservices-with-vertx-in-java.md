@@ -13,7 +13,7 @@ This article will describe how to create a simple HTTP microservice with Java an
 The **Vert.x library** was inspired by Node.js. The advantage of choosing Vert.x with Java is it is implemented with multiple threads and can therefore handle more requests or events per process.
 
 ## What You'll Need
-* [JDK 11](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
+* [Install JDK on macOS](https://jamesdschmidt.com/2019/11/26/install-jdk-on-macos.html)
 * [Maven](https://maven.apache.org/download.cgi)
 
 ## Getting Started
