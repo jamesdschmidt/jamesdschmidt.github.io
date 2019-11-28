@@ -5,4 +5,4 @@ title: "About"
 
 # About
 
-![25049668](images/25049668.jpeg) I'm James. I'm a programmer with experience in pharma, healthcare, Customer Experience (CX), ecommerce, and Workplace Experience (WX). I've developed client-server systems, embedded, mobile apps, and hosted web solutions. I'm focused on microservice architectures and reactive microservices. I live in the greater Salt Lake City area close to tall mountains where I hike and mountain bike.
+![profile picture](images/25049668.jpeg) James is from Salt Lake City, Utah where he works as a Senior Software Engineer at WeWork. He has nearly 20 year experience developing software and is currently focused on microservice architectures with Java. In his spare time, James enjoys hiking and mountain biking.
