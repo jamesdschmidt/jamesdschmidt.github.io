@@ -4,8 +4,6 @@ tags: java
 published: true
 ---
 
-> Occam's razor: *pluralitas non est ponenda sine necessitate*, “plurality should not be posited without necessity” or paraphrased as "the simplest solution is most likely the right one."
-
 This article will describe how to install the Java Development Kit (JDK) on macOS. Supporting multiple versions and switching between them will also be covered.
 
 ## Download and Install
