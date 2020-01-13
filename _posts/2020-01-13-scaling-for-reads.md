@@ -4,6 +4,8 @@ tags: architecture
 published: false
 ---
 
+TODO: consider a better title
+
 This article will describe how to scale a website or software that is read heavy in its traffic.
 
 Read replication, the first strategy for scaling a classic single database
