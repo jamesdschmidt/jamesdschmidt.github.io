@@ -1,2 +1,2 @@
-Minima Theme https://github.com/jekyll/minima  
+Minima Theme https://github.com/mmistakes/minimal-mistakes 
 Mastering Markdown https://guides.github.com/features/mastering-markdown/

@@ -1,60 +1,18 @@
 title: James D. Schmidt
-#author: jamesdschmidt
-#email: james.daniel.schmidt@gmail.com
-description: > # this means to ignore newlines until "show_exerpts:"
-show_excerpts: true # set to true to show excerpts on the homepage
+name: "James D. Schmidt"
+url: "https://jamesdschmidt.com"
+repository: "jamesdschmidt/jamesdschmidt.github.io"
+timezone: America/Denver
 
-# Minima date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-minima:
-  date_format: "%B %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    # twitter: jamesdschmidt
-    # github:  jamesdschmidt
-    rss: rss
-    # dribbble: jekyll
-    # facebook: jekyll
-    # flickr:   jekyll
-    # instagram: jekyll
-    # linkedin: jamesdschmidt2
-    # pinterest: jekyll
-    # youtube: jekyll
-    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
-    # youtube_channel_name: CloudCannon
-    # telegram: jekyll
-    # googleplus: +jekyll
-    # microdotblog: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
-
-# twitter_username: jamesdschmidt
-# github_username:  jamesdschmidt
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-- about.md
-- contact.md
-
-# Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
 
-google_analytics: UA-56785727-1
-
-# jekyll-seo-tag
-# wants different format from minima
-url: https://jamesdschmidt.dev
-twitter:
-  username: jamesdschmidt
-  card: summary
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-56785727-1"
