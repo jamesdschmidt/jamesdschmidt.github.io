@@ -16,3 +16,20 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "UA-56785727-1"
+
+include: ["_pages"]
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      share: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
