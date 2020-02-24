@@ -1,11 +1,12 @@
 ---
 title: "Hello World!"
+classes: wide
 published: true
 ---
 
 **Hello World**, this is my first blog post for this new site.
 
-Hello world programs in the following programming languages in alphabetical order.
+Hello world programs in some interesting programming languages.
 
 ## Go
 ```golang
@@ -14,7 +15,8 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Printf("hello, world\n")
+    fmt.Printf("Hello World!\n")
+}
 ```
 
 ## Java
@@ -29,4 +31,11 @@ public class HelloWorld {
 ## Python
 ``` python
 print("Hello World!")
+```
+
+## Rust
+```rust
+fn main() {
+  println!("Hello World!");
+}
 ```

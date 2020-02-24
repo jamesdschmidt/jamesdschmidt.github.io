@@ -1,7 +1,7 @@
 ---
 title: "Install JDK on macOS"
 tags: java
-published: true
+published: false
 ---
 
 This article will describe how to install the Java Development Kit (JDK) on macOS. Supporting multiple versions and switching between them will also be covered.
