@@ -1,6 +1,7 @@
 ---
 title: "Install JDK on macOS"
 tags: java
+classes: wide
 published: true
 ---
 
