@@ -1,7 +1,7 @@
 ---
 title: "Install JDK on macOS"
 tags: java
-published: false
+published: true
 ---
 
 This article will describe how to install the Java Development Kit (JDK) on macOS. Supporting multiple versions and switching between them will also be covered.
@@ -21,7 +21,7 @@ Run the `java_home` command to print the matching list of JVMs and architectures
 ```bash
 $ /usr/libexec/java_home -V
 Matching Java Virtual Machines (2):
-    11.0.5, x86_64:	"AdoptOpenJDK 11"	/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+    11.0.6, x86_64:	"AdoptOpenJDK 11"	/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
     1.8.0_232, x86_64:	"AdoptOpenJDK 8"	/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 
 /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
@@ -33,9 +33,9 @@ Run `java -version` in a shell to see the version and vendor of the JDK.
 
 ```bash
 $ java --version
-openjdk version "11.0.5" 2019-10-15
-OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
-OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)
+openjdk 11.0.6 2020-01-14
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
 ```
 
 Create a quick "hello world" Java source file to test the compiler:
@@ -69,7 +69,7 @@ Did you know that Java now has a REPL (read-eval-print-loop) shell? Run `jshell`
 
 ```bash
 $ jshell
-|  Welcome to JShell -- Version 11.0.5
+|  Welcome to JShell -- Version 11.0.6
 |  For an introduction type: /help intro
 
 jshell> System.out.println("hello world");
