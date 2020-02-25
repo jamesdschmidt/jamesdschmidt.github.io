@@ -1,5 +1,5 @@
 ---
-title: "Hello World!"
+title: "hello, world"
 classes: wide
 published: true
 ---
@@ -8,6 +8,15 @@ published: true
 
 Hello world programs in some interesting programming languages.
 
+## C
+```c
+#include <stdio.h>
+
+void main() {
+  printf("hello, world\n");
+}
+```
+
 ## Go
 ```golang
 package main
@@ -15,7 +24,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Printf("Hello World!\n")
+    fmt.Printf("hello, world\n")
 }
 ```
 
@@ -23,19 +32,19 @@ func main() {
 ```java
 public class HelloWorld {
   public static void main(String[] args) {
-    System.out.println("Hello World!");
+    System.out.println("hello, world");
   }
 }
 ```
 
 ## Python
 ``` python
-print("Hello World!")
+print("hello, world")
 ```
 
 ## Rust
 ```rust
 fn main() {
-  println!("Hello World!");
+  println!("hello, world");
 }
 ```
