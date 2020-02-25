@@ -33,7 +33,7 @@ Matching Java Virtual Machines (2):
 Run `java -version` in a shell to see the version and vendor of the JDK.
 
 ```bash
-$ java --version
+$ java -version
 openjdk 11.0.6 2020-01-14
 OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)
 OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
