@@ -6,16 +6,7 @@ published: true
 
 **Hello World**, this is my first blog post for this new site.
 
-Hello world programs in some interesting programming languages.
-
-## C
-```c
-#include <stdio.h>
-
-void main() {
-  printf("hello, world\n");
-}
-```
+Hello world written in a few programming languages:
 
 ## Go
 ```golang
@@ -24,7 +15,7 @@ package main
 import "fmt"
 
 func main() {
-    fmt.Printf("hello, world\n")
+    fmt.Println("hello, world")
 }
 ```
 
@@ -40,11 +31,4 @@ public class HelloWorld {
 ## Python
 ``` python
 print("hello, world")
-```
-
-## Rust
-```rust
-fn main() {
-  println!("hello, world");
-}
 ```
