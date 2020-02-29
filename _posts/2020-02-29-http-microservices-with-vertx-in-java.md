@@ -54,7 +54,7 @@ hello-world-service % tree
 ## Generated Source
 
 `build.gradle`
-{% highlight groovy linenos %}
+```groovy
 plugins {
   id 'java'
   id 'application'
@@ -112,7 +112,7 @@ test {
 run {
   args = ['run', mainVerticleName, "--redeploy=$watchForChange", "--launcher-class=$mainClassName", "--on-redeploy=$doOnChange"]
 }
-{% endhighlight %}
+```
 
 The main verticle is defined by `def mainVerticleName`. This tells Vert.x where to start. Also note that the dependency `vertx-web` is included. There are junit dependencies that will be discussed in a future post.
 
