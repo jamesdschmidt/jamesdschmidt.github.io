@@ -1,5 +1,6 @@
 ---
 title: "HTTP Microservices With Vert.x in Java"
+classes: wide
 tags: microservices vertx java
 published: true
 ---
