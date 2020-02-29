@@ -18,7 +18,7 @@ The **Vert.x library** was inspired by Node.js. The advantage of choosing Vert.x
 
 Visit the [Vert.x Starter](https://start.vertx.io/) to create a new projects with Vert.x. In the following screenshot I've selected 3.8.5 for the version, Java for the language, Gradle for the build tool, Vert.x Web for a dependency, and JDK 11 for the JDK version. 
 
-{% raw %}![Create a new Vert.x application]({{ site.url }}{{ site.baseurl }}/assets/images/screen_shot_vertx_starter.png){% endraw %}
+![Create a new Vert.x application](/assets/images/screen_shot_vertx_starter.png)
 
 Finally click the Generate Project button to download the zip file containing the project. Unzip the project to view the project contents.
 
