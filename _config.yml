@@ -19,6 +19,9 @@ analytics:
 
 include: ["_pages"]
 
+site:
+  og_image: /assets/images/site-logo.jpeg
+
 defaults:
   # _posts
   - scope:
@@ -26,7 +29,10 @@ defaults:
       type: posts
     values:
       layout: single
+      author_profile: false
+      read_time: true
       share: true
+      related: true
   # _pages
   - scope:
       path: ""
