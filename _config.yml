@@ -17,12 +17,6 @@ analytics:
   google:
     tracking_id: "UA-56785727-1"
 
-author:
-  email: james.daniel.schmidt@gmail.com
-  github: jamesdschmidt
-  linkedin: jamesdschmidt2
-  twitter: jamesdschmidt
-
 include: ["_pages"]
 
 site:
