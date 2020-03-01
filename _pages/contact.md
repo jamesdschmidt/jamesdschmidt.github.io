@@ -4,19 +4,15 @@ classes: wide
 permalink: "/contact/"
 ---
 
+<i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email:
 <a href="mailto:james.daniel.schmidt@gmail.com">
-  <meta itemprop="email" content="james.daniel.schmidt@gmail.com" />
-  <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email: james.daniel.schmidt@gmail.com
-</a>
+  <meta itemprop="email" content="james.daniel.schmidt@gmail.com" /> james.daniel.schmidt@gmail.com</a>
 
-<a href="https://github.com/jamesdschmidt" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub: jamesdschmidt
-</a>
+<i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub:
+<a href="https://github.com/jamesdschmidt" itemprop="sameAs" rel="nofollow noopener noreferrer">jamesdschmidt</a>
 
-<a href="https://www.linkedin.com/in/jamesdschmidt2" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn: jamesdschmidt2
-</a>
+<i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn:
+<a href="https://www.linkedin.com/in/jamesdschmidt2" itemprop="sameAs" rel="nofollow noopener noreferrer">jamesdschmidt2</a>
 
-<a href="https://twitter.com/jamesdschmidt" itemprop="sameAs" rel="nofollow noopener noreferrer">
-  <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter: jamesdschmidt
-</a>
+<i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter:
+<a href="https://twitter.com/jamesdschmidt" itemprop="sameAs" rel="nofollow noopener noreferrer">jamesdschmidt</a>
