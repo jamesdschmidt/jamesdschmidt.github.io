@@ -76,7 +76,7 @@ To view the content-type header add the `-v` (verbose) flag:
 
 ## JsonObject
 
-Java doesn't have a native JSON object however the Vert.x library provides a JsonObject to serve JSON. Under the hood, JsonObject is a facade over a LinkedHashMap Java collection. It contains many helper methods for getting or setting values in a JSON structure. In addition Vert.x uses Jackson to parse and serialize JSON.
+Java doesn't have a native JSON object however the Vert.x library provides a JsonObject to serve JSON. Under the hood, JsonObject is a facade over a LinkedHashMap Java collection. It contains many helper methods for getting or setting values in a JSON structure. In addition Vert.x uses Jackson to parse and serialize to and from the JsonObject.
 
 Modify the `MainVerticle` class to use a JsonObject:
 
