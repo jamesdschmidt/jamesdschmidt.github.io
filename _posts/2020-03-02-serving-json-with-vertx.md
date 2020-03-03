@@ -122,7 +122,7 @@ Notice the output doesn't change:
 {"greeting":"hello, world"}%
 ```
 
-Admittedly the example is overly simple. It is isolate the key pieces for serving JSON from a Vert.x HTTP microservice.
+Admittedly the example is overly simple. It is to isolate the key pieces for serving JSON from a Vert.x HTTP microservice.
 
 ## Source
 
