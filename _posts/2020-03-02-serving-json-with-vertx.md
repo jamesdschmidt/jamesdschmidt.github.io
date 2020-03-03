@@ -1,5 +1,6 @@
 ---
 title: "Serving JSON With Vert.x"
+classes: wide
 tags: microservices vertx java
 published: true
 ---
