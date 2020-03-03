@@ -113,7 +113,7 @@ public class MainVerticle extends AbstractVerticle {
 {% endhighlight %}
 
 * Line 13 a JsonObject was created. Notice the fluent programming interface of the object.
-* Line 16 encode() is called on the JsonObject to produce a UTF-8 encoded string.
+* Line 17 `encode()` is called on the JsonObject to produce a UTF-8 encoded string.
 
 Notice the output doesn't change:
 
