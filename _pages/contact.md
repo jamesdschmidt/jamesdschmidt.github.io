@@ -5,7 +5,7 @@ permalink: "/contact/"
 ---
 
 <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email:
-<a href="mailto:james.daniel.schmidt@gmail.com">james.daniel.schmidt@gmail.com</a>
+<a href="mailto:jamesdschmidt@protonmail.com">jamesdschmidt@protonmail.com</a>
 
 <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub:
 <a href="https://github.com/jamesdschmidt" itemprop="sameAs" rel="nofollow noopener noreferrer">jamesdschmidt</a>
