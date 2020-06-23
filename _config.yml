@@ -1,21 +1,28 @@
 title: James D. Schmidt
-name: "James D. Schmidt"
-url: "https://jamesdschmidt.com"
-repository: "jamesdschmidt/jamesdschmidt.github.io"
-timezone: America/Denver
+url: https://jamesdschmidt.com
+twitter_username: jamesdschmidt
+github_username: jamesdschmidt
 
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
-
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-sitemap
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-56785727-1"
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+  
+minima:
+  social_links:
+    twitter: jamesdschmidt
+    github: jamesdschmidt
+
+header_pages:
+  - about.md
+
+google_analytics: UA-56785727-1
+
+show_exerpts: true
 
 include: ["_pages"]
 
