@@ -12,6 +12,8 @@ plugins:
 minima:
   date_format: "%b %-d, %Y"
 
+permalink: /:title
+
 header_pages:
   - about.md
 
