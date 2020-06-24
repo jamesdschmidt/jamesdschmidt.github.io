@@ -17,6 +17,7 @@ permalink: /:title
 
 header_pages:
   - about.md
+  - what-im-reading.md
 
 google_analytics: UA-56785727-1
 
