@@ -3,8 +3,6 @@ layout: page
 title: What I'm Reading
 ---
 
-A list of books that I'm currently reading.
-
 ## *Effective Java, Third Edition* by Joshua Bloch
 I've heard it said in a recent local Java user group meeting that this book should be read yearly. Looks like this book is a permanent resident on my list.
 
