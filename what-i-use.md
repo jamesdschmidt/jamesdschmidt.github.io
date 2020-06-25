@@ -7,7 +7,7 @@ title: What I Use
 
 At home I use a 2013 13" MacBook Air (8 GB RAM, 128 GB SSD). I got this for it's all day battery and it's portability. I dock this MacBook Air to an Apple 27" Thunderbolt Display. When docked I use the Apple compact wired keyboard and a Razer Deathadder Elite mouse. I've been thinking about getting a mechanical keyboard like the [Keychron K2](https://www.keychron.com/collections/keyboard/products/keychron-k2-wireless-mechanical-keyboard) but can't decide on the switch type.
 
-I have a 1 Gbps internet access at home. I notice that many web servers are throttled at around 100 Mbps.
+I have 1 Gbps internet access at home. I notice that many web servers are throttled at around 100 Mbps.
 
 For work I use a 2017 15" MacBook Pro (16 GB RAM, 250 GB SSD). I dock it to my home setup when working from home.
 
