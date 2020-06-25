@@ -5,12 +5,13 @@ title: What I Use
 
 ## Hardware
 
-* 2013 MacBook Air 13" (home)
-* Apple Thunderbolt Display 27"
-* Razer Deathadder Elite mouse
-* Apple compact wired keyboard
-* iPhone 6s Plus 128 MB
-* 1 Gbps internet access
+At home I use a 2013 13" MacBook Air (8 GB RAM, 128 GB SSD). I got this for it's all day battery and it's portability. I dock this MacBook Air to an Apple 27" Thunderbolt Display. When docked I use the Apple compact wired keyboard and a Razer Deathadder Elite mouse. I've been thinking about getting a mechanical keyboard like the [Keychron K2](https://www.keychron.com/collections/keyboard/products/keychron-k2-wireless-mechanical-keyboard) but can't decide on the switch type.
+
+I have a 1 Gbps internet access at home. I notice that many web servers are throttled at around 100 Mbps.
+
+For work I use a 2017 15" MacBook Pro (16 GB RAM, 250 GB SSD). I dock it to my home setup when working from home.
+
+I'm a hold out with my iPhone 6s Plus (128 GB). I really do like the headphones jack. A few years ago I had the battery replaced but Apple failed to assemble the flash and camera properly when I got it back. They ended up replacing my phone. I don't see that kind of customer service elsewhere.
 
 ## Software
 
