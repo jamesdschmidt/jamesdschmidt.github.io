@@ -9,7 +9,7 @@ I've heard it said in a recent local Java user group meeting that this book shou
 Bookmark: Page 188
 
 ## *The DevOps Handbook* by Gene Kim, et al.
-I've listened to the Audible recording of this at least twice on my commute this last year. I have since purchased the book and am reading through it. I have also listened to the audiobook companion novel *The Phoenix Project*. It is a must.
+I've listened to the Audible recording of this at least twice on my commute last year. I have since purchased the book and am reading through it. I have also listened to the audiobook companion novel *The Phoenix Project*. It is a must.
 
 Bookmark: Page 7
 
