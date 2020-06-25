@@ -16,7 +16,7 @@ Bookmark: Page 7
 ## *Clean Code* by Robert C. Martin
 I recently started a book club at work and we are covering this title.
 
-Bookmark: Page 75
+Bookmark: Page 93
 
 ## *Harry Potter and the Goblet of Fire* by J. K. Rolling
 I'm reading the Harry Potter series for fun to my son nightly. I've never read them before but I have seen several of the movies. The movies are done well but the books are worth reading.
