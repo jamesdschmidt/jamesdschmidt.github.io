@@ -11,7 +11,7 @@ I have 1 Gbps internet access at home. I notice that many web servers are thrott
 
 For work I use a 2017 15" **MacBook Pro** (16 GB RAM, 250 GB SSD). I dock it to my home setup when working from home.
 
-I'm a hold out with my **iPhone 6s Plus** (128 GB). I really do like the headphones jack. A few years ago I had the battery replaced but Apple failed to assemble the flash and camera properly when I got it back. They replaced my phone. I don't see that kind of customer service elsewhere.
+I'm a hold out with my **iPhone 6s Plus** (128 GB). I really do like the headphones jack. A few years ago I had the battery replaced but Apple failed to assemble the flash and camera properly when I got it back. They replaced my phone. I don't get that kind of customer service anywhere else.
 
 ## Software
 
