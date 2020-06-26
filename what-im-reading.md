@@ -6,7 +6,7 @@ title: What I'm Reading
 ## *Effective Java, Third Edition* by Joshua Bloch
 I've heard it said in a recent local Java user group meeting that this book should be read yearly. Looks like this book is a permanent resident on my list.
 
-Bookmark: Page 188
+Bookmark: Page 191
 
 ## *The DevOps Handbook* by Gene Kim, et al.
 I've listened to the Audible recording of this at least twice on my commute last year. I have since purchased the book and am reading through it. I have also listened to the audiobook companion novel *The Phoenix Project*. It is a must.
