@@ -7,6 +7,8 @@ published: false
 This article will describe getting path parameters in a Spring Boot HTTP microservice.
 
 consider writing a todo-based microservice app (users, lists, tasks)
+list.title
+task.title
 
 **simple case**
 Reading a path parameter is done with the @PathVariable annotation from Spring. I wish they named the annotation as @PathParam instead.
