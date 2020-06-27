@@ -1,8 +1,6 @@
 ---
 title: "HTTP Microservices With Vert.x in Java"
-classes: wide
 tags: microservices vertx java
-published: true
 ---
 
 This article will describe how to create a simple HTTP microservice with Java and the Vert.x library. We'll look at other integration technologies in the future.

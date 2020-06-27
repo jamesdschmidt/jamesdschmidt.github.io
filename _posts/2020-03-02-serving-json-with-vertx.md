@@ -1,8 +1,6 @@
 ---
 title: "Serving JSON With Vert.x"
-classes: wide
 tags: microservices vertx java
-published: true
 ---
 
 This article will explore serving JSON with the Vert.x toolkit. We start with an HTTP microservice. For help creating a microservice see [HTTP Microservices With Vert.x in Java](/2020/02/29/http-microservices-with-vertx-in-java.html).

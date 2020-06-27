@@ -1,6 +1,5 @@
 ---
 title: "REST With Vert.x"
-classes: wide
 tags: microservices vertx java
 published: false
 ---

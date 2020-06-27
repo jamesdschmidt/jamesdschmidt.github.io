@@ -1,7 +1,5 @@
 ---
 title: "hello, world"
-classes: wide
-published: true
 ---
 
 **Hello World**, this is my first blog post for this new site.
