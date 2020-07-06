@@ -21,4 +21,4 @@ Bookmark: page 103
 ## *Harry Potter and the Goblet of Fire* by J. K. Rolling
 I'm reading the Harry Potter series for fun to my son nightly. I've never read them before but I have seen several of the movies. The movies are done well but the books are worth reading.
 
-Bookmark: page 258
+Bookmark: page 288
