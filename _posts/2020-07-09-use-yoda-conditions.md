@@ -3,7 +3,7 @@ title: "Use Yoda Conditions"
 tags: java
 ---
 
-I disliked this style the first time I saw a code base with yoda conditions due to the cluttered look of the expressions. It has since grown on me. Getting past opinion there is a technical problem and solution here. The problem is when working with object types in Java there is a possibility of running into ```null``` and the dredded ```NullPointerException```. To avoid the exception adopt the yoda conditions style using literals or known constants that are a part of the object on the left side of an expression.
+I disliked this style the first time I saw a code base with yoda conditions due to the cluttered look of the expressions. It has since grown on me. Getting past opinion there is a technical problem and solution here. The problem is when working with object types in Java there is a possibility of running into ```null``` and the dredded ```NullPointerException```. To avoid the exception adopt the yoda conditions style using literals or constants on the left side of an expression.
 
 ## Boolean
 
