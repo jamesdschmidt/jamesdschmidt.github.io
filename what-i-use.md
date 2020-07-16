@@ -17,4 +17,4 @@ I'm a hold out with my **iPhone 6s Plus** (128 GB). I really do like the headpho
 
 For Java work I use the JetBrains **Intellij** integrated development environment (IDE). I've used several and this is my favorite. For dynamic programming languages and general text editing I use **TextMate**. For image and photo editing I use **Pixelmator**.
 
-An audiophile friend of mine turned me to **Spotify** for music. I haven't looked back.
+An audiophile friend of mine tuned me into to **Spotify** for music. I haven't looked back.
