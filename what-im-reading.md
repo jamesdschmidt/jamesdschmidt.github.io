@@ -11,7 +11,7 @@ Bookmark: page 197
 ## *The DevOps Handbook* by Gene Kim, et al.
 I've listened to the Audible recording of this at least twice on my commute last year. I have since purchased the book and am reading through it. I have also listened to the audiobook companion novel *The Phoenix Project*. It is a must.
 
-Bookmark: page 27
+Bookmark: page 37
 
 ## *Clean Code* by Robert C. Martin
 I recently started a book club at work and we are covering this title.
