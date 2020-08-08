@@ -11,7 +11,7 @@ Bookmark: page 199
 ## *The DevOps Handbook* by Gene Kim, et al.
 I've listened to the Audible recording of this at least twice on my commute last year. I have since purchased the book and am reading through it. I have also listened to the audiobook companion novel *The Phoenix Project*. It is a must.
 
-Bookmark: page 49
+Bookmark: page 61
 
 ## *Clean Code* by Robert C. Martin
 I recently started a book club at work and we are covering this title.
@@ -21,4 +21,4 @@ Bookmark: page 135
 ## *Harry Potter and the Goblet of Fire* by J. K. Rolling
 I'm reading the Harry Potter series for fun to my son nightly. I've never read them before but I have seen several of the movies. The movies are done well but the books are worth reading.
 
-Bookmark: page 403
+Bookmark: page 422
