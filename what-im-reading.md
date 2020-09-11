@@ -18,7 +18,12 @@ I recently started a book club at work and we are covering this title.
 
 Bookmark: page 153
 
-## *Harry Potter and the Goblet of Fire* by J. K. Rolling
-I'm reading the Harry Potter series for fun to my son nightly. I've never read them before but I have seen several of the movies. The movies are done well but the books are worth reading.
+## *Harry Potter and the Order of the Phoenix* by J. K. Rolling
+Harry is definitely a teenager as he is getting impatient with everyone around him. He ego has grown thinking he has done more than survive his past encounters.
 
-Bookmark: page 720
+Bookmark: page 135
+
+# What I've Read Recently
+
+## *Harry Potter and the Goblet of Fire* by J. K. Rolling
+This seems to be a pivotal book in the series. It is slow going at the beginning but it really picks up in the last few chapters.
