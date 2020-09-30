@@ -16,7 +16,7 @@ Bookmark: page 77
 ### *Clean Code* by Robert C. Martin
 I recently started a book club at work and we are covering this title.
 
-Bookmark: page 153
+Bookmark: page 163
 
 ### *Harry Potter and the Order of the Phoenix* by J. K. Rolling
 Harry is definitely a teenager as he is getting impatient with everyone around him. He ego has grown thinking he has done more than survive his past encounters.
