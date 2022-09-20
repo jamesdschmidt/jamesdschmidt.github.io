@@ -12,10 +12,5 @@ I've listened to the Audible recording of this at least twice. I have since purc
 ### *Clean Code* by Robert C. Martin
 Uncle Bob is a legend and this is a must read.
 
-### *Minecraft | The Mountain* by Max Brooks
-The author picks where he left off with the main character in the prior book *Minecraft | The Island*.
-
-## What I've Recently Read
-
-### *Minecraft | The Island* by Max Brooks
-Read this to my son for bedtime. Didn't care for the first person voice. Definitely written for a younger audience.
+### *The Wishsong of Shannara* by Terry Brooks
+The author has improved his pacing and writing style. Fortunately we get less, painstaking detail of every blade of grass on the journeys of the characters.
