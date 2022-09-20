@@ -9,7 +9,7 @@ For work I use a 2021 16" **MacBook Pro** (M1 Max CPU, 32 GB RAM, 1 TB SSD) with
 
 I have 2 Gbps **Google Fiber** internet access at home. I've noticed that many web servers are throttled at 100 Mbps.
 
-Finally upgraded to a **Google Pixel 6a** from an iPhone 6s Plus. I miss the headphones jack and am disappointed that the smart phones moved away from it.
+Finally upgraded to a **Google Pixel 6a** from an iPhone 6s Plus. I miss the headphones jack and am disappointed that smart phones moved away from it.
 
 ## Software
 
